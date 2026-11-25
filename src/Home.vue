@@ -8,7 +8,6 @@ const wa = "6285339396395"
 function addToCart(){
     data.cart = data.cart + data.qty
 }
-
 function qtyPlus(){
     if(data.qty < data.stock ){
         data.qty += 1
